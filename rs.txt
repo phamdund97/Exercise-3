@@ -1,0 +1,11 @@
+B1: Clone repository: git clone https://gitlab.com/tubcvt/git-basic-ex3.git
+B2: Thay doi global config:git config --global user.email "Phamdund97@gmail.com" va git config --global user.name "Pham Du"
+B3: Dat lai remote url: git remote set-url origin https://github.com/phamdund97/Exercise-3.git
+B4: Them noi dung vao file doit.txt: "Day la noi dung bat ki" va stage,commit file doit.txt vua sua: 
+    git add doit.txt; git commit -m "Edit file in branch cherry"
+B5: Checkout sang branch hot-fix: git checkout hot-fix va them noi dung "hot-fix-here" trong file f.txt
+B6: Stage file f.txt da thay doi trong branch hot-fix: git add f.txt va commit: git commit -m "change file f"
+B7: Push remote branch hot-fix voi file thay doi la f.txt: git push origin hot-fix.
+B8: Quay lai nhanh branch feature_awesome_cherry: git checkout feature_awesome_cherry 
+    va push commit len remote: git push origin feature_awesome_cherry
+Link: https://github.com/phamdund97/Exercise-3/tree/feature_awesome_cherry
