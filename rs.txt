@@ -1,0 +1,4 @@
+B1: Clone repository: git clone https://gitlab.com/tubcvt/git-basic-ex3.git
+B2: Thay doi global config:git config --global user.email "Phamdund97@gmail.com" va git config --global user.name "Pham Du"
+B3: Dat lai remote url: git remote set-url origin https://github.com/phamdund97/Exercise-3.git
+B4: Them noi dung vao file doit.txt: "Day la noi dung bat ki"
